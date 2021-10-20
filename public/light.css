@@ -1,0 +1,42 @@
+body {
+    background-image: radial-gradient(#c9c9ff 1%, transparent 5%);
+    background-color: #fdfdff;
+}
+
+button {
+    background-color: white;
+    border: black solid 1px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+.connect {
+    border-image: linear-gradient(
+            to bottom,
+            black,
+            rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.attest {
+    border-image: linear-gradient(
+            to bottom,
+            black,
+            rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.attestations {
+    border-top: black solid 1px;
+}

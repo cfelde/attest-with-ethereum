@@ -1,0 +1,50 @@
+body {
+    background-image: radial-gradient(#363600 1%, transparent 5%);
+    background-color: #020200;
+    color: white;
+}
+
+button {
+    background-color: orange;
+    border: white solid 1px;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+}
+
+textarea {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #0d0d0d;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: white;
+}
+
+.connect {
+    border-image: linear-gradient(
+            to bottom,
+            white,
+            rgba(255, 255, 255, 0)
+    ) 1 100%;
+}
+
+.attest {
+    border-image: linear-gradient(
+            to bottom,
+            white,
+            rgba(255, 255, 255, 0)
+    ) 1 100%;
+}
+
+.attestations {
+    border-top: white solid 1px;
+}
