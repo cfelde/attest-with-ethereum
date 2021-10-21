@@ -29,3 +29,10 @@ output can be downloaded as an attest.json file. If you want to provide a statem
 account, do so and pass the attest.json file on to whomever is interested in this attestation. They can then themselves
 upload the file to attest-with.eth to verify the signatures, or do so off-line, and optionally add on their own
 attestation if they so wish.
+
+## Web app
+
+This repo contains the code for the web app. Beyond serving some static files there is no backend requirements as it's
+all done within the browser.
+
+It's a React app, following a typical setup. You can start the app locally with ```npm start```
