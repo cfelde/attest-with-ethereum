@@ -25,7 +25,7 @@ ReactDOM.render(
                     Switch theme ☀️🌛
                 </div>
                 <div className={"source"}>
-                    <a href={""}>Attest with Ethereum source code</a>
+                    <a href={"https://github.com/cfelde/attest-with-ethereum"}>Attest with Ethereum source code</a>
                 </div>
             </div>
         </Web3ReactProvider>
