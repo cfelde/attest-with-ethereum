@@ -1,0 +1,15 @@
+{
+    "comment": "Downloaded from attest-with.eth - Verify at https://attest-with.eth.link",
+    "content": "This is an example of attest.json, signed by two different accounts.",
+    "attestations": [
+        {
+            "account": "0x2c89797CC766603812bAe16106633bee446654F5",
+            "signature": "0x223c3383a9b6b0a8751fd29c23b87061942f424a787d901a8808e005acf85e8225f6f1be9952b2a8f8a87b19b56df65d587f71c539b3ec0adf2da7a50c9c55271c"
+        },
+        {
+            "account": "0xB68cC68fB8DE5400A281311f4D2bb1591cE26891",
+            "signature": "0xeb8ded20441bc9e0d18c8bb3981b0bb1b2228611db4e171424a735b72d83de494c0d1144c382cefa6c826d0ab6e881b1a88150b38fb63917bc0f113e842676661b"
+        }
+    ],
+    "version": 1
+}
